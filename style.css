@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+
+.header,
+.hero-section,
+.footer {
+  background: #1F2937;
+  display: flex;
+  padding: 1.5vh 10vw 0 10vw;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.header-logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  display: flex;
+  align-items: center;
+}
+
+.header-logo img {
+  width: 111px;
+  height: auto;
+}
+
+.navigation {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #E5E7EB;
+}
+
+.hero-section {
+  flex-grow: 1;
+  gap: 50px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.hero-section img {
+  width: auto;
+  height: 300px;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: center;
+}
+
+.hero-text button {
+  font-size: 18px;
+  background: #3882F6;
+  color: #E5E7EB;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+#offerings {
+  text-align: center;
+}
+
+.cards img {
+  width: 200px;
+  height: 200px;
+}
+
+.offering-title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.info {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.info img {
+  border: 5px solid #3882F6;
+  border-radius: 10px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  background: #E5E7EB;
+  padding: 100px 325px;
+  display: flex;
+  flex-direction: column;
+}
+
+.attribution {
+  align-self: end;
+}
+
+.cta-card {
+  background: #3882F6;
+  color: #F9FAf8;
+  display: flex;
+  margin: 100px 250px; 
+  padding: 35px;
+  border-radius: 20px;
+  justify-content: space-between;
+}
+
+.cta-title {
+  font-size: 24px;
+}
+
+.cta-text {
+  font-size: 18px;
+  margin: 
+}
+
+.cta-card button {
+  font-size: 18px;
+  background: #3882F6;
+  color: #E5E7EB;
+  border-color: #F9FAF8; 
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.footer {
+  color: #F9FAF8;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
